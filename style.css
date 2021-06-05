@@ -1,0 +1,111 @@
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: skyblue;
+      }
+
+      #myCanvas {
+        border: 2px solid #9C9898;
+        position: center ;
+        background-color: rgb(87, 109, 117);
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:link, a:visited {
+        color: blue;
+      }
+
+      a:hover {
+        color: red;
+      }
+
+      a.tooltip {
+        outline:none;
+        text-decoration:none;
+      }
+
+      a.tooltip strong {
+        line-height:30px;
+        text-decoration:none;
+      }
+
+      a.tooltip:hover {
+        text-decoration:none;
+      }
+
+      a.tooltip span {
+        z-index:10;
+        display:none;
+        padding:14px 20px;
+        margin-top:60px;
+        margin-left:-360px;
+        width:320px;
+        line-height:16px;
+      }
+
+      a.tooltip:hover span {
+        display:inline;
+        position:absolute;
+        border:2px solid #FFF;
+        color:#EEE;
+        background:#222;
+      }
+
+      .callout {
+        z-index:20;
+        position:absolute;
+        border:0;
+        top:-14px;
+        left:160px;
+       }
+
+       a.tooltip span {
+        border-radius:2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-box-shadow: 0px 0px 8px 4px #666;
+        -webkit-box-shadow: 0px 0px 8px 4px #666;
+        box-shadow: 0px 0px 8px 4px #666;
+        opacity: 0.95;
+       }
+
+       .tutbox {
+        z-index:10;
+        display:none;
+        padding:14px 20px;
+        margin-top:60px;
+        margin-left:160px;
+        width:320px;
+        line-height:16px;
+        display:inline;
+        position:absolute;
+        border:2px solid #FFF;
+        color:#EEE;
+        background:#222; border-radius:2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-box-shadow: 0px 0px 8px 4px #666;
+        -webkit-box-shadow: 0px 0px 8px 4px #666;
+        box-shadow: 0px 0px 8px 4px #666;
+        opacity: 0.95;
+       }
+
+       a.tutlink:link {
+        color:#EEE;
+       }
+
+       a.tutlink:visited {
+        color:#EEE;
+       }
+
+       a.tutlink:hover {
+        color:red;
+       }
+
+       a.tutlink:active {
+        color:#EEE;
+       }
+

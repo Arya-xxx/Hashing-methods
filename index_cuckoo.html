@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Cuckoo Hashing Visualization </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+	  <h2 style="background-color: blue; color: white;text-align: center;margin: 3px;">Cuckoo Hashing</h2>
+    <center><table width=80%>
+    <tr><td>
+
+    <br>
+    <center>
+		<table  cellpadding=0 cellspacing=2>
+			<tr>
+				<td>
+    			<canvas id="myCanvas1" width="300" height="500">
+			    This text is displayed if your browser does not support HTML5 Canvas.
+			    </canvas>
+		    </td>
+		    <td valign=top>
+		    	<table><tr><td height=213></td></tr></table>
+			    <input id="inputx" type="text" maxlength="15" size="15" onkeyup="process()"><br><br>
+			    <center> <button id="insertbutton" type="button" style="font-size: 13px" onclick="insrt(1)">Insert</button> &nbsp; <button id="deletebutton" type="button" style="font-size: 13px" onclick="delt()">Delete</button> </center>
+			    <br><br>
+			    <center><div id="message"></div></center>
+		    </td>
+		    <td>
+			    <canvas id="myCanvas2" width="300" height="500">
+			    This text is displayed if your browser does not support HTML5 Canvas.
+			    </canvas>
+		    </td>
+    	</tr>
+    	<tr><td colspan=3>
+			<div style="background-color: yellow; border: 2px solid red; margin: 3px; text-align: center;"><h3>Presented by:</h3><br>Bhuvan Jain <strong style="color: red;">(2k18/ME/059)</strong><br>Arya Shekhar <strong style="color: red;">(2k18/ME/046)</strong>
+			</div>
+    	</td></tr>
+    </table>
+    </center>
+    </td></tr>
+    </table>
+    </center>
+  <script type="text/javascript" src="code.js"></script>
+  </body>
+</html>
